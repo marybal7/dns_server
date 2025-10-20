@@ -1,0 +1,14 @@
+{
+  "example.com": {
+    "A": ["1.2.3.4", "1.2.3.5"],
+    "AAAA": ["2001:db8::1"],
+    "CNAME": "alias.example.com."
+  },
+  "alias.com": {
+    "CNAME": "example.com."
+  },
+  "4.3.2.1.in-addr.arpa": {
+    "PTR": "example.com."
+  }
+}
+
